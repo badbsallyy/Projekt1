@@ -1,0 +1,26 @@
+[
+  {
+    "id": "deal-001",
+    "title": "Noise-Cancelling Kopfhörer",
+    "description": "Premium ANC, 30h Akku, faltbares Design.",
+    "price": "119,90 €",
+    "badge": "-35%",
+    "affiliateUrl": "https://example.com/affiliate/deal-001"
+  },
+  {
+    "id": "deal-002",
+    "title": "Smartwatch Pro",
+    "description": "OLED, Schlaftracking, GPS.",
+    "price": "149,00 €",
+    "badge": "Neu",
+    "affiliateUrl": "https://example.com/affiliate/deal-002"
+  },
+  {
+    "id": "deal-003",
+    "title": "Espresso-Maschine",
+    "description": "15 bar Druck, kompakt, Milchaufschäumer.",
+    "price": "89,00 €",
+    "badge": "Top Deal",
+    "affiliateUrl": "https://example.com/affiliate/deal-003"
+  }
+]
