@@ -1,0 +1,26 @@
+[
+  {
+    "id": "post-001",
+    "title": "Die besten Tech-Deals im Oktober",
+    "date": "2024-10-03",
+    "category": "Tech",
+    "excerpt": "Unsere Highlights für Smartphones, Audio und Wearables.",
+    "affiliateUrl": "https://example.com/affiliate/post-001"
+  },
+  {
+    "id": "post-002",
+    "title": "Home & Kitchen Deals, die sich lohnen",
+    "date": "2024-10-01",
+    "category": "Home",
+    "excerpt": "Praktische Geräte für Küche und Alltag.",
+    "affiliateUrl": "https://example.com/affiliate/post-002"
+  },
+  {
+    "id": "post-003",
+    "title": "Streaming-Setups für kleines Budget",
+    "date": "2024-09-28",
+    "category": "Creator",
+    "excerpt": "Mikrofone, Kameras und Licht – günstig & gut.",
+    "affiliateUrl": "https://example.com/affiliate/post-003"
+  }
+]

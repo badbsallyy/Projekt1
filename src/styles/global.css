@@ -1,0 +1,160 @@
+:root {
+  color-scheme: dark;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  background-color: #0b0b0b;
+  color: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0b0b0b;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 72px 0;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.muted {
+  color: #b0b0b0;
+}
+
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.button {
+  border: 1px solid #2d2d2d;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #111;
+  color: #f5f5f5;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  border-color: #4b4b4b;
+  background: #1a1a1a;
+}
+
+.nav {
+  padding: 24px 0;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.footer {
+  border-top: 1px solid #1f1f1f;
+  padding: 32px 0 48px;
+  color: #9c9c9c;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #1f1f1f;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 220px;
+}
+
+.card-badge {
+  display: inline-flex;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #1f1f1f;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero {
+  padding: 96px 0 64px;
+}
+
+.hero h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #bcbcbc;
+}
+
+.spotlight {
+  border-radius: 24px;
+  padding: 32px;
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), transparent 55%), #0f0f0f;
+  border: 1px solid #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 260px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
